@@ -113,8 +113,8 @@ h2 {
 
 #interests li {
   background: #ffe8ec;
-  border-color: #e94560;
-  color: #e94560;
+  border-color: #fff;
+  color: #4b92f0;
 }
 
 #interests li:hover {
@@ -143,8 +143,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #4b92f0;
-  border: 1px solid #4b92f0;
+  background: #fff;
+  border: 1px solid #fff;
   border-radius: 12px;
 }
 
@@ -154,7 +154,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #fff;
+  color: #4b92f0;
 }
 
 #nav-ul {
@@ -166,7 +166,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #fff;
+  color: #4b92f0;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -188,14 +188,14 @@ h1 {
 
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: #fff;
 }
 
 #portfolio {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 250%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -211,7 +211,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #444;
+  color: #4b92f0;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
@@ -237,4 +237,8 @@ h1 {
 
 #portfolio a:hover::after {
   opacity: 1;
+}
+
+h3{
+  color: #fff;
 }
