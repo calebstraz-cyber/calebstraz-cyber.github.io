@@ -222,7 +222,7 @@ h1 {
 }
 
 #portfolio a:hover {
-  background: #000;
+  background: #e94560;
   color: #fff;
   transform: translateX(4px);
 }
